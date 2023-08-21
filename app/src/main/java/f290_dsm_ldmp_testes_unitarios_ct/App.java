@@ -4,9 +4,6 @@
 package f290_dsm_ldmp_testes_unitarios_ct;
 
 public class App {
-
-    private static double soma;
-
     public static void main(String[] args) {
 
     }

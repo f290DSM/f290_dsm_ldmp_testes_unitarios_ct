@@ -19,6 +19,8 @@ repositories {
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
+    compileOnly("org.projectlombok:lombok:1.18.28")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:31.1-jre")
